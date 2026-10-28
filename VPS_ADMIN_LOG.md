@@ -44,4 +44,6 @@ This file records important inspections, decisions, changes, and follow-up items
 | 2026-10-28 | Created this administration log | Establish a durable record for VPS decisions and operational activity |
 | 2026-10-28 | Installed Docker Engine and Compose | Container runtime for future applications; Docker socket remains restricted from `ubuntu` |
 | 2026-10-28 | Deployed n8n at `https://workflows.lumidotstudios.com` | n8n + PostgreSQL + Caddy with persistent volumes and automatic HTTPS |
+| 2026-10-28 | Enabled persistent 4 GiB swap | Added memory headroom; configured swappiness to 10 |
+| 2026-10-28 | Deployed Paperclip at `https://team.lumidotstudios.com` | Official Docker image, authenticated mode, persistent data, and Caddy HTTPS; Paperclip is private behind the Docker network |
 
