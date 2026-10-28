@@ -1,0 +1,33 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_*
+authorized_keys
+known_hosts
+
+# Backups and database exports
+*.sql
+*.sql.gz
+*.dump
+*.bak
+backups/
+
+# Local/editor/system files
+.DS_Store
+*.swp
+*.swo
+__pycache__/
+.venv/
+venv/
+
+# Logs and generated state
+*.log
+*.pid
+node_modules/
+dist/
+build/
+
