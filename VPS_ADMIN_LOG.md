@@ -47,4 +47,5 @@ This file records important inspections, decisions, changes, and follow-up items
 | 2026-10-28 | Enabled persistent 4 GiB swap | Added memory headroom; configured swappiness to 10 |
 | 2026-10-28 | Deployed Paperclip at `https://team.lumidotstudios.com` | Official Docker image, authenticated mode, persistent data, and Caddy HTTPS; Paperclip is private behind the Docker network |
 | 2026-10-28 | Deployed Beszel at `https://monitor.lumidotstudios.com` | Lightweight monitoring hub with persistent storage; Docker monitoring agent still requires one-time UI enrollment |
+| 2026-10-28 | Connected Beszel Docker agent | Read-only Docker socket, private WebSocket connection, agent using approximately 7 MiB RAM |
 
