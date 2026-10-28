@@ -31,3 +31,6 @@ node_modules/
 dist/
 build/
 
+# Local n8n deployment staging files (contains secrets)
+.n8n-deploy/
+

@@ -42,4 +42,6 @@ This file records important inspections, decisions, changes, and follow-up items
 | Date | Change | Reason / outcome |
 |---|---|---|
 | 2026-10-28 | Created this administration log | Establish a durable record for VPS decisions and operational activity |
+| 2026-10-28 | Installed Docker Engine and Compose | Container runtime for future applications; Docker socket remains restricted from `ubuntu` |
+| 2026-10-28 | Deployed n8n at `https://workflows.lumidotstudios.com` | n8n + PostgreSQL + Caddy with persistent volumes and automatic HTTPS |
 
